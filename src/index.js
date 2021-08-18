@@ -9,5 +9,5 @@ module.exports = function reverse (n) {
     str += remainder.toString();
   }
 
-  return str;
+  return +str;
 }
